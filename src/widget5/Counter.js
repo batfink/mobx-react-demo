@@ -1,4 +1,4 @@
-import { observable } from 'mobx';
+import { observable, action } from 'mobx';
 
 class Counter {
     @observable state = {
@@ -9,11 +9,11 @@ class Counter {
         return this.state.count;
     }
 
-    increment () {
+    @action increment () {
         this.state.count ++;
     }
 
-    decrement () {
+    @action decrement () {
         this.state.count --;
     }
 }
