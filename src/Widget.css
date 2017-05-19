@@ -1,0 +1,21 @@
+.Widget {
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+}
+
+.Widget-Count {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: 2px 2px 6px white;
+}
+
+.Widget-Buttons {
+    text-align: center;
+}
+.Widget-Buttons .btn {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5em;
+}
